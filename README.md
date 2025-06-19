@@ -4,18 +4,18 @@
 <h2>Descrizione del progetto</h2>
 
 <p>
-Il progetto propone di classificare automaticamente le emozioni espresse in testi brevi, utilizzando il dataset Emotion di HuggingFace. 
-Le emozioni sono suddivise in 6 classi: joy, sadness, anger, fear, love, surprise.
-Il modello base utilizzato è RoBERTa-base, ulteriormente fine-tuned per il compito di classificazione multi-classe. 
-Il progetto è sviluppato in PyTorch, sfruttando l’interfaccia Trainer di HuggingFace.
+Il progetto propone di classificare automaticamente le emozioni espresse in testi brevi, utilizzando il dataset Emotion di HuggingFace. <br>
+Le emozioni sono suddivise in 6 classi: joy, sadness, anger, fear, love, surprise.<br>
+Il modello base utilizzato è RoBERTa-base, ulteriormente fine-tuned per il compito di classificazione multi-classe. <br>
+Il progetto è sviluppato in PyTorch, sfruttando l’interfaccia Trainer di HuggingFace.<br>
 </p>
 
 <h2>Architettura</h2>
 <p>
-Modello: roberta-base (pretrained)
-Classificatore finale: adattato per 6 classi
-Loss Function: CrossEntropyLoss bilanciata secondo la distribuzione delle classi
-Trainer: HuggingFace Trainer
+Modello: roberta-base (pretrained)<br>
+Classificatore finale: adattato per 6 classi<br>
+Loss Function: CrossEntropyLoss bilanciata secondo la distribuzione delle classi<br>
+Trainer: HuggingFace Trainer<br>
 </p>
 
 
@@ -29,31 +29,31 @@ Confusion Matrix salvata come immagine
 
 <h2>Dataset</h2>
 <p>
-Dataset: emotion
-Origine: HuggingFace Datasets
-Suddivisione: train, validation, test
+Dataset: emotion<br>
+Origine: HuggingFace Datasets<br>
+Suddivisione: train, validation, test<br>
 </p>
 
 <h2>Analisi effettuata:</h2>
 <p>
-Distribuzione classi
-Bilanciamento tramite pesi nella loss
+Distribuzione classi<br>
+Bilanciamento tramite pesi nella loss<br>
 </p>
 
 
 
 <h3>Installare le dipendenze con:</h3>
-pip install -r requirements.txt
+pip install -r requirements.txt<br>
 
 
 </h3>Esecuzione</h3>
-Lancia l'addestramento con:
-python run.py
+Lancia l'addestramento con:<br>
+python run.py<br>
 
 <h3>Output finale</h3>
-Modello addestrato salvato in final_model/
-Confusion Matrix in grafici/
-Report classificazione in console
+Modello addestrato salvato in final_model/<br>
+Confusion Matrix in grafici/<br>
+Report classificazione in console<br>
 
 Es.
 
