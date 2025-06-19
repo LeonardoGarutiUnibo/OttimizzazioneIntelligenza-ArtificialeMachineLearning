@@ -56,8 +56,8 @@ Confusion Matrix in grafici/
 Report classificazione in console
 
 Es.
-              precision    recall  f1-score   support
 
+              precision    recall  f1-score   support
      sadness       0.95      0.97      0.96       581
          joy       0.96      0.93      0.95       695
         love       0.82      0.88      0.85       159
